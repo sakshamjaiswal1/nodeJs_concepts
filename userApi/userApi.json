@@ -1,0 +1,361 @@
+[{
+    "_id": {
+      "$oid": "60d58fefd4e58715a8c71468"
+    },
+    "group": "",
+    "srno": 1,
+    "name": "How do you see all your real estate portfolio data?",
+    "options": {
+      "1": "All data is at the site ",
+      "2": "Some data is shared in the scheduled meetings ",
+      "3": "Monthly information is shared through an email ",
+      "4": "We have a centralized dashboard where all portfolio is connected ",
+      "5": "The dashboard is comparing in real time all relevant real estate data based on predefined alarms and threshold "
+    },
+    "answer": 1,
+    "input": 1,
+    "marks": 1,
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "60d58fefd4e58715a8c71469"
+    },
+    "group": "",
+    "srno": 2,
+    "name": "Are you predictive behaviour of assets and equipment?",
+    "options": {
+      "1": "Operation is on a reactive basis, and we are not able to predict failures.",
+      "2": "We have PPM system in place, and we think to move into prediction.",
+      "3": "We tracked historical data, and technical experience helps to predict behaviour ",
+      "4": "Data of past incidents is centralized in FMECA software used by the technical team ",
+      "5": "We adopted ML AI-based based technologies that are reading historical data, and FMECA helps us predicting behaviour. "
+    },
+    "answer": 1,
+    "input": 1,
+    "marks": 1,
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "60d58fefd4e58715a8c7146a"
+    },
+    "group": "",
+    "srno": 3,
+    "name": "How you monitor de financial data? ",
+    "options": {
+      "1": "The financial team is presenting on request reports ",
+      "2": "The financial group is sending monthly, or weekly excel reports to tseam",
+      "3": "It is software where everyone can read his relevant data ",
+      "4": "Software is connected to a Dashboard that presents the live situation ",
+      "5": "The dashboard predicts financial health, gives insights and drives decision making to different scenarios based on business flow. "
+    },
+    "answer": 1,
+    "input": 1,
+    "marks": 1,
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "60d58fefd4e58715a8c7146b"
+    },
+    "group": "",
+    "srno": 4,
+    "name": "Shutdown activities ",
+    "options": {
+      "1": "No Planning and proper budgeting  and timelines are ",
+      "2": "Centralized on excel tracker, we handle it, but budget numbers are coming late and inaccurate. ",
+      "3": "We have a good team that maintains control in a few software's, and timelines and budget are delivered with some delays. ",
+      "4": "We have a great platform that allows us to be on time and touch budget limit",
+      "5": "We have an integrated platform that allows us to be on time and below budgets"
+    },
+    "answer": 1,
+    "input": 1,
+    "marks": 1,
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "60d58fefd4e58715a8c7146c"
+    },
+    "group": "",
+    "srno": 5,
+    "name": "CAPEX work ",
+    "options": {
+      "1": "We depend on vendors, and we do not validate or reconcile information. ",
+      "2": "Data is received from vendors or contractors; we rely heavily on their support from transition into operation",
+      "3": "The operation team is handling an excel tracker and are coordinating the vendors through the program. ",
+      "4": "It is software that helps the team drive, monitor, collect and store all CAPEX activities. ",
+      "5": "The dashboard present and predict in real-time CAPEX to the all interested parties in the organization."
+    },
+    "answer": 1,
+    "input": 1,
+    "marks": 1,
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "60d58fefd4e58715a8c7146d"
+    },
+    "group": "",
+    "srno": 6,
+    "name": "How you monitor occupier/tenant/workforce satisfaction",
+    "options": {
+      "1": "We don't do it",
+      "2": "We conduct a yearly satisfaction survey ",
+      "3": "We are having a Call centre created. ",
+      "4": "It is software for ticketing system, and we inform monthly the results the management. ",
+      "5": "The dashboard takes the data from Satisfaction surveys, Ticketing system and presents live the trends and insights. "
+    },
+    "answer": 1,
+    "input": 1,
+    "marks": 1,
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "60d58fefd4e58715a8c7146e"
+    },
+    "group": "",
+    "srno": 7,
+    "name": "The organization has a strategic plan, and how is it communicated?",
+    "options": {
+      "1": "We might have",
+      "2": "We have an old one, but we are not following it ",
+      "3": "We have recently developed it, but business is not aligned to it yet. ",
+      "4": "Only the top management are driving the strategic goals. ",
+      "5": "The KRAs of all staff are aligned to the strategic plan of the organization. "
+    },
+    "answer": 1,
+    "input": 1,
+    "marks": 1,
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "60d58fefd4e58715a8c7146f"
+    },
+    "group": "",
+    "srno": 8,
+    "name": "How is information shared within the organization?",
+    "options": {
+      "1": "Our information is own by departments, and centralization of data requires effort  what mostly inaccurate and late. ",
+      "2": "We are using asset tagging, registers and through monthly meetings, we share the information among ourselves. <br>  But is not verified the quality and accuracy of data and we rely on trust and people experience. ",
+      "3": "Information is stored in different software solutions(Proptech, Propfin, IoT reading, etc.),<br>  and we can download them in excel format. So we will collate the data in the monthly reports. ",
+      "4": "Information is collected into a common platform, and we can see the required data if we are looking for it. ",
+      "5": "Information is presented in Dashboards, and analytical formulas are helping us predicting trends and ease our decision-making process. "
+    },
+    "answer": 1,
+    "input": 1,
+    "marks": 1,
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "60d58fefd4e58715a8c71470"
+    },
+    "group": "",
+    "srno": 9,
+    "name": "How Break and Fix and incident management is done? ",
+    "options": {
+      "1": "The property management team is informed of the incident through SMS, Phone or Email sent by the Facility Management team. ",
+      "2": "The Property Management team is tracking the Unplanned Repair (R&M), and they have a budget for it. They are penalizing the FM team in case the Break and Fix budget is exceeded.  ",
+      "3": "A CMMS system based on historical data and market benchmark creates the Plant Preventive Maintenance (PPM)  schedule to reduce R&M instances.  ",
+      "4": "PPM is having a data collection from equipment's that allows the maintenance to change from Time based (TBM) to Condition-based Maintenance. (CBM)",
+      "5": "It is a complete integrated system where equipment's, historical data, FMECA, and IoT sensors monitor and <br>predicting real-time the Life Cycle. It is a blend of TBM, CBM, break and fix. "
+    },
+    "answer": 1,
+    "input": 1,
+    "marks": 1,
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "60d58fefd4e58715a8c71471"
+    },
+    "group": "",
+    "srno": 10,
+    "name": "What scenario is relevant for your organization after a new software, hardware or asset was installed or upgraded? ",
+    "options": {
+      "1": "Suppose driven by the department what it is using it. The training and induction are made unstructured, and follow up are almost inexistent. ",
+      "2": "The vendor is involved in the follow-up training of our staff, and when the problem occurs, internal teams must call the vendor. That takes time",
+      "3": "We have an internal team trained by the vendor to fix 60% of the issues inside, so the integration is relatively smooth. ",
+      "4": "We have a dedicated department driving the integration of all new tech and hardware adoption, and they are a single point of contract to us. ",
+      "5": "The unique integration team is constantly bridging the relation between company goals and the operation team by <br>driving technology and hardware adoption strategy on a corporate level. "
+    },
+    "answer": 1,
+    "input": 1,
+    "marks": 1,
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "60d58fefd4e58715a8c71472"
+    },
+    "group": "",
+    "srno": 11,
+    "name": "Has your organization implemented operation information processes inter departments?",
+    "options": {
+      "1": "We are satisfied with our information management processes and see no need to change them",
+      "2": "We currently do not use information standards across our departments but recognize their importance and look into solutions.",
+      "3": "We use a variety of information standards that differ across construction, procurement, operations and <br>maintenance tasks. They are relevant for the respective department and are not bridging the overall goal.  ",
+      "4": "We have well-defined information processes, and we review them yearly",
+      "5": "The specialist team is helping departments to find an immediate solution in case any information process brings delays or losses into any area of the business. "
+    },
+    "answer": 1,
+    "input": 1,
+    "marks": 1,
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "60d58fefd4e58715a8c71473"
+    },
+    "group": "",
+    "srno": 12,
+    "name": "How would you rate the transparency and delivery latest major project you were involved?",
+    "options": {
+      "1": "We didn't have visibility.",
+      "2": "We had limited visibility. ",
+      "3": "We had some visibility. ",
+      "4": "We had visibility but a significant delay in data. ",
+      "5": "We had complete visibility. "
+    },
+    "answer": 1,
+    "input": 1,
+    "marks": 1,
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "60d58fefd4e58715a8c71474"
+    },
+    "group": "",
+    "srno": 13,
+    "name": "\tHow you communicate alarms internally among teams?",
+    "options": {
+      "1": "We communicate only to the relevant department through phones, mostly ",
+      "2": "We share with the department, and afterwards, data is presented in the monthly meeting to other departments. ",
+      "3": "It is software that communicated to the respective department",
+      "4": "The software displays among departments. ",
+      "5": "It is a centralized dashboard that is communicating relevant alarms on colour code through the organization. "
+    },
+    "answer": 1,
+    "input": 1,
+    "marks": 1,
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "60d58fefd4e58715a8c71475"
+    },
+    "group": "",
+    "srno": 14,
+    "name": "Are you entering manual data in tasks?",
+    "options": {
+      "1": "Yes, everything is manual. ",
+      "2": "Yes, but we have some automation. ",
+      "3": "Yes, there are data entry tasks, and we are in the process of automating them.",
+      "4": "Very few. ",
+      "5": "It is a complete system driven and limited manual entry. "
+    },
+    "answer": 1,
+    "input": 1,
+    "marks": 1,
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "60d58fefd4e58715a8c71476"
+    },
+    "group": "",
+    "srno": 15,
+    "name": "Key performance indicators (KPI) ",
+    "options": {
+      "1": "We do not use KPIs. ",
+      "2": "We have some visibility into KPIs",
+      "3": "We run reports on KPIs weekly or monthly excel driven.",
+      "4": "We have real-time visibility into our KPIs. Through software. ",
+      "5": "Through dashboards, corporate headquarters have complete real-time visibility into KPIs.  "
+    },
+    "answer": 1,
+    "input": 1,
+    "marks": 1,
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "60d58fefd4e58715a8c71477"
+    },
+    "group": "",
+    "srno": 16,
+    "name": "When undergoing large-scale engineering projects to update assets or plant systems:",
+    "options": {
+      "1": "We don't have means by which to validate or reconcile information from contractors and vendors.",
+      "2": "Operational data remains largely as received from vendors or contractors; we rely heavily on their IT to support the transition into operation",
+      "3": "Project delivery teams use software to provide post-project engineering information; internal IT helps manage and project information.",
+      "4": "We have simplified control of engineering data and documents through software that ensures compliance and efficiency.",
+      "5": "Our IT infrastructure fully manages and controls engineering information and drives the workflow of the asset information management processes."
+    },
+    "answer": 1,
+    "input": 1,
+    "marks": 1,
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "60d58fefd4e58715a8c71478"
+    },
+    "group": "",
+    "srno": 17,
+    "name": "How would you describe your organization's handling of engineering information?",
+    "options": {
+      "1": "Our engineering data remain in the format provided by the vendor, are not centrally located, and may not be digitized.",
+      "2": "We rely on our IT departments to locate engineering information for us; the exact location of that information is unclear to departments outside of IT.",
+      "3": "Our engineering data may be searchable but are not centrally located and can be difficult to verify.",
+      "4": "Our engineering information is well organized and lives within a class library where it is searched by location, functional type, and physical equipment type.",
+      "5": "Our teams have immediate access to reliable, accurate engineering information; changes to data are subject to rigorous change controls."
+    },
+    "answer": 1,
+    "input": 1,
+    "marks": 1,
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "60d58fefd4e58715a8c71479"
+    },
+    "group": "",
+    "srno": 18,
+    "name": "Your company's perspective on digital transformation",
+    "options": {
+      "1": "What is digital transformation?",
+      "2": "We were talking, but we don't understand precisely what to do",
+      "3": "We depend on the initiative of individuals, based on previous experience and skills, to adopt new initiatives that help in our digital transformation. ",
+      "4": "We have an internal team driving the Digital Transformation and aligns the company goals and mission to it. ",
+      "5": "We are using an experienced company to drive the Digital Transformation and is locked into the contract's success target for the next x years. "
+    },
+    "answer": 1,
+    "input": 1,
+    "marks": 1,
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "60d58fefd4e58715a8c7147a"
+    },
+    "group": "",
+    "srno": 19,
+    "name": "How do you report Sustainability, ESG and EHS targets towards stakeholders, government and other relevant institutions?",
+    "options": {
+      "1": "We collect data from departments on excel and is centralized into a report manually, but is no validation of data quality.  ",
+      "2": "We collect data from departments on excel and are centralized into a report manually, with a good amount of validation. ",
+      "3": "We collect the data stored in software, and the report is made manually by a dedicated team. ",
+      "4": "Softwares are connected through API into a common database, and data is curated by a team that creates the report. ",
+      "5": "We have Dashboards that are collecting real-time data from all IOT and relevant tech tools and software.<br> The dashboard is pushing the reports to relevant stakeholders based on automatic scheduling. "
+    },
+    "answer": 1,
+    "input": 1,
+    "marks": 1,
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "60d58fefd4e58715a8c7147b"
+    },
+    "group": "",
+    "srno": 20,
+    "name": "Through emails and phones. ",
+    "options": {
+      "1": "Through emails and phones.  ",
+      "2": "Through Email, phones and WhatsApp groups. ",
+      "3": "Through Email, phones, Shared drive and WhatsApp groups. ",
+      "4": "Through a variety of software's and Email, and WhatsApp, communication is reduced. ",
+      "5": "Through a corporate communication platform that reduced a lot of email use. "
+    },
+    "answer": 1,
+    "input": 1,
+    "marks": 1,
+    "__v": 0
+  }]
