@@ -69,7 +69,41 @@ const createDocument = async () => {
 // createDocument()
 
 const getDocument = async () => {
-  const result = await Playlist.find({ctype:{$nin:['express','mongoose']}});
+  const result = await Playlist.find({
+    $or: [{ ctype: "database" }, { author: "Saksham" }],
+  })
+    .select({ ctype: 1 })
+    .sort({ name: 1 });
   console.log(result);
 };
-getDocument()
+// getDocument()
+
+const updateDocument = async (_id) => {
+  try {
+    const result = await Playlist.updateOne(
+      { _id },
+      {
+        $set: {
+          ctype: "CSS StyleSheet",
+        },
+      }
+    );
+    console.log(result);
+  } catch (err) {
+    console.log(err);
+  }
+};
+
+// updateDocument("613c9eef99d359b10441d89b");
+// delete document
+
+const deleteDocument = async (_id) => {
+  try {
+    const result = await Playlist.deleteOne({ _id });
+    console.log(result)
+  } catch (err) {
+    console.log(err);
+  }
+};
+
+deleteDocument("613c9eef99d359b10441d89b");
