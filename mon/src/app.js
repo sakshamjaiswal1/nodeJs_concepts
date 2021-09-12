@@ -106,4 +106,4 @@ const deleteDocument = async (_id) => {
   }
 };
 
-deleteDocument("613c9eef99d359b10441d89b");
+// deleteDocument("613c9eef99d359b10441d89b");
