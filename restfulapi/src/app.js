@@ -6,6 +6,8 @@ const app = express();
 const port = process.env.PORT || 8000;
 app.use(express.json());
 
+// crea
+
 app.get("/", (req, res) => {
   res.send("hello from home from saksham Jaiswal");
 });
@@ -62,6 +64,18 @@ app.patch('/students/:id',async(req,res)=>{
     res.status(404).send(e)
 
   }
+})
+// delete request
+app.delete('/students/:id', async (req,res)=>{
+ try{ const _id = req.params.id;
+  const deleteStudent = await Student.findByIdAndDelete(_id)
+  if(!_id){
+    return res.status(400).send();
+  }
+  res.send(deleteStudent)}catch(e){
+    res.status(500).send(e)
+  }
+ 
 })
 
 app.listen(port, () => {
