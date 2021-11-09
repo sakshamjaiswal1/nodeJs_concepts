@@ -4,29 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
+    <title>Login</title>
 </head>
 <body>
-    <h1>Registration From</h1>
-    <form action="" id='reg-form'>
+    <h1>Login Page</h1>
+    <form action="" id='login'>
         <input type="text" name="" id="username" placeholder="username">
         <input type="password" name="" id="password" placeholder="password" >
         <input type="submit" value='Submit Form' >
 
 
     </form>
-    <h3>Already have a account then</h3>
-    <a href="http://localhost:3000/login.html">Login</a>
+    <h3>Not Registered then Please Sign-In</h3>
+    <a href="http://localhost:3000">Sign-Up</a>
+    <a href="http://localhost:3000/change-password.html">Change Password</a>
+
     <script>
 
-    const form = document.getElementById('reg-form')
-    form.addEventListener('submit',registerUser)
+    const form = document.getElementById('login')
+    form.addEventListener('submit',loginUser)
 
-  async  function registerUser(e){
+  async  function loginUser(e){
         e.preventDefault()
         const username= document.getElementById('username').value
         const password= document.getElementById('password').value
-    const result=  await  fetch('/api/register',{
+    const result=  await  fetch('/api/login',{
             method:'POST',
             headers:{
                 'Content-Type':"application/json"
@@ -36,9 +38,11 @@
                 password
             })
         }).then((res)=>res.json()).catch((e)=>console.log(e))
-        console.log(result)
+        // console.log(result)
         if (result.status==='ok'){
-            window.alert('You have successfully created account')
+            // console.log('Got the token:',result.data)
+            localStorage.setItem('token',result.data)
+            window.alert('You have successfully Logged In')
         }
         else{
            window.alert(result.error)
